@@ -1,13 +1,13 @@
 # Inherit device configuration for mt8127-common
-$(call inherit-product, device/amazon/mt8127-common/cm.mk)
+$(call inherit-product, device/amazon/mt8127-common/rr.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/amazon/austin/full_austin.mk)
+$(call inherit-product, device/amazon/austin/rr_austin.mk)
 
 PRODUCT_CHARACTERISTICS := tablet
 
 TARGET_SCREEN_WIDTH := 600
 TARGET_SCREEN_HEIGHT := 1024
 
-PRODUCT_NAME := cm_austin
+PRODUCT_NAME := rr_austin
 PRODUCT_RELEASE_NAME := austin
