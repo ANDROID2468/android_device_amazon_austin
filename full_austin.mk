@@ -5,7 +5,7 @@ $(call inherit-product, device/amazon/austin/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 PRODUCT_DEVICE := austin
-PRODUCT_NAME := rr_austin
+PRODUCT_NAME := full_austin
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Fire
 PRODUCT_MANUFACTURER := amzn
