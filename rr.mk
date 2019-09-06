@@ -2,7 +2,7 @@
 $(call inherit-product, device/amazon/mt8127-common/rr.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/amazon/austin/rr_austin.mk)
+$(call inherit-product, device/amazon/austin/full_austin.mk)
 
 PRODUCT_CHARACTERISTICS := tablet
 
